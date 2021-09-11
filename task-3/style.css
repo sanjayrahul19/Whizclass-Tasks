@@ -1,0 +1,87 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(48, 62, 71);
+  overflow-x: hidden;
+}
+.header {
+  display: flex;
+  justify-content: center;
+}
+.headerh1 {
+  color: rgb(244, 93, 94);
+  font-size: 80px;
+  margin-top: 30px;
+}
+.fa-male {
+  border: 2px solid black;
+  border-radius: 50%;
+  text-align: center;
+  padding: 10px;
+  width: 50px;
+  height: 40px;
+  background-color: rgb(13, 177, 222);
+  margin-top: -4px;
+  color: rgb(24, 88, 109);
+}
+.maleicon {
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 62px;
+  height: 45px;
+  padding: 5px;
+  background-color: white;
+  margin-right: 20px;
+  margin-top: 50px;
+}
+.headerpara {
+  color: white;
+  font-size: 22px;
+  margin-top: 105px;
+  margin-left: -318px;
+}
+.row1 {
+  border: 1px hidden;
+  margin-top: 30px;
+  margin-left: 480px;
+  width: 300px;
+  padding: 20px;
+  background-color: rgb(253, 158, 26);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.child1,
+.child2 {
+  color: rgb(75, 66, 56);
+}
+.child3 {
+  color: rgb(251, 88, 84);
+}
+.fa-child {
+  font-size: 20px;
+}
+.column2 {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  align-items: center;
+  border: 1px hidden;
+  width: 300px;
+  height: 244px;
+  padding: 11px;
+  margin-left: 780px;
+  margin-top: -244px;
+  background-color: rgb(1, 176, 226);
+}
+.building {
+  color: black;
+  position: absolute;
+  margin-left: -100px;
+  margin-top: 25px;
+  font-size: 20px;
+}
