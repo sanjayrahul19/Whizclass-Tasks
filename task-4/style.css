@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 50%;
+  margin: 0px auto;
+  overflow-x: hidden;
+}
+.container1 {
+  background-image: url("/images/purple.jpg");
+  clip-path: polygon(100% 0, 100% 38%, 100% 80%, 0 100%, 0 0);
+  border-top-right-radius: 10%;
+  border-top-left-radius: 10%;
+  color: white;
+  padding: 30px;
+}
+#scrolling::first-letter {
+  font-size: 65px;
+}
+.headingcontainer {
+  letter-spacing: 10px;
+  padding: 20px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.factory {
+  text-align: center;
+  color: white;
+  font-size: 10px;
+  padding: 10px;
+}
+.fa-mouse {
+  font-size: 30px;
+  padding: 20px;
+}
+.container2 {
+  background-image: url("/images/himalaya.jpg");
+  clip-path: polygon(100% 0, 100% 38%, 100% 80%, 0 100%, 0 20%);
+  background-size: cover;
+  opacity: 0.8;
+  text-align: center;
+  margin-top: -68px;
+  padding: 70px;
+}
+.container2para2 {
+  color: black;
+}
+#longscroll2 {
+  font-size: 22px;
+}
+#longscroll1::first-letter {
+  font-size: 60px;
+}
+.visualcreativity {
+  padding: 7px 0px;
+}
+.container3 {
+  background-image: url("/images/purple2.jpg");
+  clip-path: polygon(100% 0, 100% 38%, 100% 80%, 0 100%, 0 20%);
+  background-size: cover;
+  opacity: 0.8;
+  margin-top: -66px;
+  padding: 85px;
+  text-align: center;
+}
+#story2 {
+  font-size: 25px;
+  color: white;
+}
+.container3para3 {
+  padding-bottom: 10px;
+}
+span {
+  color: skyblue;
+}
+#story1::first-letter {
+  font-size: 60px;
+}
+.container4 {
+  background-image: url(/images/phone.jpg);
+  clip-path: polygon(100% 0, 100% 38%, 100% 80%, 0 100%, 0 20%);
+  background-size: cover;
+  opacity: 0.8;
+  margin-top: -66px;
+  padding: 85px;
+  text-align: center;
+}
+h3::first-letter {
+  font-size: 60px;
+}
+.container5 {
+  background-image: url("/images/pink.jpg");
+  clip-path: polygon(100% 0, 100% 38%, 100% 80%, 0 100%, 0 20%);
+  background-size: cover;
+  opacity: 0.8;
+  margin-top: -66px;
+  padding: 85px;
+  text-align: center;
+  color: white;
+}
+#parallax {
+  padding: 5px 0px;
+}
+#punchy::first-letter {
+  font-size: 60px;
+}
+.container6 {
+  background-image: url("/images/hills.jpg");
+  clip-path: polygon(100% 0, 100% 38%, 100% 80%, 0 100%, 0 20%);
+  background-size: cover;
+  opacity: 0.8;
+  margin-top: -67px;
+  padding: 85px;
+  text-align: center;
+}
+#fasier::first-letter {
+  font-size: 60px;
+}
+.container7 {
+  background-image: url("/images/purple2.jpg");
+  clip-path: polygon(100% 0, 100% 38%, 100% 80%, 0 100%, 0 20%);
+  background-size: cover;
+  opacity: 0.8;
+  margin-top: -72px;
+  padding: 85px;
+  text-align: center;
+  color: palevioletred;
+}
+#long {
+  font-size: 20px;
+}
+#longs::first-letter {
+  font-size: 60px;
+}
+#engine {
+  padding: 10px 0px;
+}
+#good {
+  color: white;
+}
+.container8 {
+  background-image: url("/images/lightpink.jpg");
+  clip-path: polygon(100% 0, 100% 38%, 100% 80%, 0 100%, 0 20%);
+  background-size: cover;
+  opacity: 0.8;
+  margin-top: -72px;
+  padding: 85px;
+  text-align: center;
+}
+#slower::first-letter {
+  font-size: 60px;
+}
+.container9 {
+  background-image: url("/images/facecolor.jpg");
+  clip-path: polygon(100% 0, 100% 38%, 100% 80%, 0 100%, 0 20%);
+  background-size: cover;
+  opacity: 0.8;
+  margin-top: -72px;
+  padding: 85px;
+  text-align: center;
+}
+#awkward::first-letter {
+  font-size: 60px;
+}
+.container10 {
+  background-image: url("/images/grey.jpg");
+  clip-path: polygon(100% 0, 100% 38%, 100% 100%, 0 100%, 0 20%);
+  background-size: cover;
+  opacity: 0.8;
+  margin-top: -78px;
+  padding: 73px;
+}
+.address {
+  position: relative;
+  left: 450px;
+  top: -125px;
+}
+.container10para10 {
+  position: relative;
+  top: 60px;
+  left: -15px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+#footer {
+  color: black;
+  font-size: 15px;
+  padding: 0px 70px;
+}
+.footer {
+  padding: 30px 0px;
+}
+.border {
+  border: 2px dotted white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 45%;
+  height: 2480px;
+  position: absolute;
+  top: 10px;
+  margin: 10px 5px 0px 25px;
+}
