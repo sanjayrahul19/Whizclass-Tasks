@@ -1,0 +1,187 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 30px;
+  gap: 50px;
+}
+.card1 {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  border-radius: 3%;
+  padding-top: 15px;
+  width: 402px;
+  height: 450px;
+  transition: 500ms ease-in-out;
+}
+.card1-content {
+  padding: 15px 0px 2px 15px;
+}
+.card1-content,
+p {
+  padding-top: 10px;
+}
+.card1-price {
+  display: flex;
+  padding: 15px 40px 5px 15px;
+  justify-content: space-between;
+}
+.button1 {
+  border: none;
+  padding: 5px;
+  color: white;
+  background-color: rgb(41, 168, 68);
+}
+.card2 {
+  padding-top: 15px;
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.15),
+    0px 5px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 3%;
+  width: 402px;
+  height: 450px;
+  transition: 500ms ease-in-out;
+}
+.card2-content {
+  padding: 15px 0px 2px 15px;
+}
+.card2-content,
+p {
+  padding-top: 10px;
+}
+.card2-price {
+  display: flex;
+  padding: 15px 40px 5px 15px;
+  justify-content: space-between;
+}
+.button2 {
+  border: none;
+  padding: 5px;
+  color: white;
+  background-color: rgb(41, 168, 68);
+}
+.card3 {
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.15),
+    0px 5px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 3%;
+  padding-top: 15px;
+  width: 402px;
+  height: 450px;
+  transition: 500ms ease-in-out;
+}
+.card3-content {
+  padding: 15px 0px 2px 15px;
+}
+.card3-content,
+p {
+  padding-top: 10px;
+}
+.card3-price {
+  display: flex;
+  padding: 15px 40px 5px 15px;
+  justify-content: space-between;
+}
+.button3 {
+  border: none;
+  padding: 5px;
+  color: white;
+  background-color: rgb(41, 168, 68);
+}
+.card4 {
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.15),
+    0px 5px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 3%;
+  padding-top: 15px;
+  width: 402px;
+  height: 450px;
+  transition: 500ms ease-in-out;
+}
+.card4-content {
+  padding: 15px 0px 2px 15px;
+}
+.card4-content,
+p {
+  padding-top: 10px;
+}
+.card4-price {
+  display: flex;
+  padding: 15px 40px 5px 15px;
+  justify-content: space-between;
+}
+.button4 {
+  border: none;
+  padding: 5px;
+  color: white;
+  background-color: rgb(41, 168, 68);
+}
+.card5 {
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.15),
+    0px 5px 10px rgba(0, 0, 0, 0.05);
+  padding-top: 15px;
+  border-radius: 3%;
+  width: 402px;
+  height: 450px;
+  transition: 500ms ease-in-out;
+}
+.card5-content {
+  padding: 15px 0px 2px 15px;
+}
+.card5-content,
+p {
+  padding-top: 10px;
+}
+.card5-price {
+  display: flex;
+  padding: 15px 40px 5px 15px;
+  justify-content: space-between;
+}
+.button5 {
+  border: none;
+  padding: 5px;
+  color: white;
+  background-color: rgb(41, 168, 68);
+}
+.card6 {
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.15),
+    0px 5px 10px rgba(0, 0, 0, 0.05);
+  padding-top: 15px;
+  border-radius: 3%;
+  width: 402px;
+  height: 450px;
+  transition: 500ms ease-in-out;
+}
+.card1:hover,
+.card2:hover,
+.card3:hover,
+.card4:hover,
+.card5:hover,
+.card6:hover {
+  transform: scale(1.1);
+}
+.card6-content {
+  padding: 15px 0px 2px 15px;
+}
+.card6-content,
+p {
+  padding-top: 10px;
+}
+.card6-price {
+  display: flex;
+  padding: 15px 40px 5px 15px;
+  justify-content: space-between;
+}
+.button6 {
+  border: none;
+  padding: 5px;
+  color: white;
+  background-color: rgb(41, 168, 68);
+}
+@media only screen and (max-width: 340px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
